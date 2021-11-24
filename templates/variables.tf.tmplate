@@ -1,0 +1,16 @@
+variable "project" {
+  default = "${TF_PROJECT_NAME}"
+}
+
+variable "network_name" {
+  default = "${TF_NETWORK_NAME}"
+}
+
+variable "gcp_service_list" {
+  type = list
+  default = [
+        "iam.googleapis.com",
+        "cloudresourcemanager.googleapis.com",
+        "compute.googleapis.com"
+]
+}
