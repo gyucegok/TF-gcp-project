@@ -6,6 +6,14 @@ variable "network_name" {
   default = "${TF_NETWORK_NAME}"
 }
 
+variable "regionc1" {
+  default = "europe-west1"
+}
+
+variable "locationc1" {
+  default = "europe-west1-c"
+}
+
 variable "gcp_service_list" {
   type = list
   default = [
