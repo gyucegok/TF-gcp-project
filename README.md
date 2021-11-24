@@ -1,4 +1,4 @@
-# GKE Infra - Terraform
+# GCP Project&VPC Create - Terraform
 
 Creates a project
 Creates a VPC
